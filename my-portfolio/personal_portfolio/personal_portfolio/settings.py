@@ -16,7 +16,7 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
 sentry_sdk.init(
-    dsn="https://0503c6f145dc49d493090357b29f09f7@sentry.io/1775669",
+    dsn="https://3f21748e1c784d238c1eaca8c03f9dde@sentry.io/1775726",
     integrations=[DjangoIntegration()]
 )
 
@@ -33,7 +33,7 @@ SECRET_KEY = '%on(r%i5borr3n!w%)mq&x0_+mi_exmid0zw7#_bb25^o_wh$$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
